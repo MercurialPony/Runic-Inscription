@@ -1,0 +1,77 @@
+container.inscription=Inscription
+container.writing=Writing
+
+SpellMana.lore=Mana
+SpellDamage.lore=Damage
+SpellHeal.lore=Heal
+SpellBuff.lore=Removes debuffs
+SpellType.lore=Type
+SpellFire.lore=Fire
+SpellFrost.lore=Frost
+SpellLightning.lore=Lightning
+SpellNature.lore=Nature
+SpellFirebolt.lore=A basic spell used by both novices and mages
+SpellIcebolt.lore=A utility spell used to freeze enemies in place
+SpellLightningbolt.lore=A powerful spell used to bend lightning to your will
+SpellHealing.lore=A handy spell favored by all users of magic
+SpellDispel.lore=A medical spell used to cure magical effects and illness
+SpellFirerain.lore=A devastating spell mastered by few
+SpellChainlightning.lore=A destructive spell used to strike multiple enemies
+
+SpellFirebolt.gui=Fire bolt
+SpellIcebolt.gui=Ice bolt
+SpellLightningbolt.gui=Lightning bolt
+SpellHeal.gui=Healing
+SpellDispel.gui=Dispel
+SpellFirerain.gui=Fire rain
+SpellChainlightning.gui=Chain lightning
+
+item.ItemPointChisel.name=Point Chisel
+
+item.ItemRoyalLilyBud.name=Royal Lily Bud
+item.ItemRoyalLilyRoot.name=Royal Lily Root
+
+item.ItemScrollEmpty.name=Empty Scroll
+item.ItemScrollFirebolt.name=Scroll of Fire bolt
+item.ItemScrollIcebolt.name=Scroll of Ice bolt
+item.ItemScrollLightningbolt.name=Scroll of Lightning bolt
+item.ItemScrollHeal.name=Scroll of Healing
+item.ItemScrollDispel.name=Scroll of Dispel
+item.ItemScrollFirerain.name=Scroll of Fire rain
+item.ItemScrollChainlightning.name=Scroll of Chain lightning
+
+item.ItemScrollTracing.name=Tracing Scroll
+item.ItemPaperTracing.name=Tracing Paper
+item.ItemPaperTracedFirebolt.name=Traced Paper
+item.ItemPaperTracedIcebolt.name=Traced Paper
+item.ItemPaperTracedLightningbolt.name=Traced Paper
+item.ItemPaperTracedHeal.name=Traced Paper
+item.ItemPaperTracedDispel.name=Traced Paper
+item.ItemPaperTracedFirerain.name=Traced Paper
+item.ItemPaperTracedChainlightning.name=Traced Paper
+
+item.ItemRuneBlank.name=Blank Rune
+item.ItemRuneFirebolt.name=Rune of Fire bolt
+item.ItemRuneIcebolt.name=Rune of Ice bolt
+item.ItemRuneLightningbolt.name=Rune of Lightning bolt
+item.ItemRuneHeal.name=Rune of Healing
+item.ItemRuneDispel.name=Rune of Dispel
+item.ItemRuneFirerain.name=Rune of Fire rain
+item.ItemRuneChainlightning.name=Rune of Chain lightning
+
+tile.BlockWritingTable.name=Writing Table
+tile.BlockMonolith.name=Monolith Stone
+tile.BlockMonolithFirebolt.name=Monolith Stone
+tile.BlockMonolithIcebolt.name=Monolith Stone
+tile.BlockMonolithLightningbolt.name=Monolith Stone
+tile.BlockMonolithHeal.name=Monolith Stone
+tile.BlockMonolithDispel.name=Monolith Stone
+tile.BlockMonolithFirerain.name=Monolith Stone
+tile.BlockMonolithChainlightning.name=Monolith Stone
+
+tile.CropRoyalLily.name=Royal Lily
+
+PotionEssenceMana.postfix=Essence of Mana
+PotionEssenceMana=Instant Mana
+
+itemGroup.tabRunicInscription=Runic Inscription

@@ -1,0 +1,6 @@
+{
+	"FireboltCast": {"category": "player", "sounds": [{"name": "FireboltCast", "stream": false}]},
+	"IceboltCast": {"category": "player", "sounds": [{"name": "IceboltCast", "stream": false}]},
+	"FireRainCast": {"category": "player", "sounds": [{"name": "FireRainCast", "stream": false}]},
+	"BlessingCast": {"category": "player", "sounds": [{"name": "BlessingCast", "stream": false}]}
+}

@@ -1,0 +1,4 @@
+- Create different rune stone textures and overlay with rune inscription for different textures every craft
+- Change 'killed by with' tags for entities
+- Add more languages
+- Check all TODOs in code
