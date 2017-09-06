@@ -4,13 +4,13 @@ import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
 
-public class CapabilityProviderBase implements ICapabilityProvider
+public class CapabilityProvider implements ICapabilityProvider
 {
-	protected Capability capability; // Getters/Setters (?)
-	protected ICapabilityBase instance;
+	protected Capability capability;
+	protected ICapability instance;
 	protected EnumFacing side;
 
-	public CapabilityProviderBase(Capability capability, ICapabilityBase instance, EnumFacing facing)
+	public CapabilityProvider(Capability capability, ICapability instance, EnumFacing facing)
 	{
 		this.capability = capability;
 		this.instance = instance;
@@ -18,21 +18,17 @@ public class CapabilityProviderBase implements ICapabilityProvider
 	}
 
 	@Override
-	public boolean hasCapability(Capability<?> capability, EnumFacing facing)
+	public boolean hasCapability(Capability capability, EnumFacing facing)
 	{
-		if(capability == this.capability)
-		{
-			return true;
-		}
-		return false;
+		return capability == this.capability;
 	}
 
 	@Override
 	public <T> T getCapability(Capability<T> capability, EnumFacing facing)
 	{
-		if(capability == this.capability)
+		if (capability == this.capability)
 		{
-			return (T) this. instance;
+			return (T) this.instance;
 		}
 		return null;
 	}
