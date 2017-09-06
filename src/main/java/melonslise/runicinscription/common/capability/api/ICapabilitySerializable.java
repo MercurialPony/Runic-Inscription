@@ -4,8 +4,7 @@ import net.minecraft.nbt.NBTBase;
 import net.minecraft.util.EnumFacing;
 
 /**
- * Provides read/write NBT methods to the capability's storage for cleaner
- * capability creation.
+ * Provides read/write NBT methods to the capability's storage for cleaner capability creation.
  */
 public interface ICapabilitySerializable extends ICapability
 {
