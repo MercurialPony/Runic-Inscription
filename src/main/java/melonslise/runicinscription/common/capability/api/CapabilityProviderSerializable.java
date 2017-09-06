@@ -5,9 +5,9 @@ import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.util.INBTSerializable;
 
-public class CapabilityProviderSerializable extends CapabilityProviderBase implements INBTSerializable<NBTBase>
+public class CapabilityProviderSerializable extends CapabilityProvider implements INBTSerializable<NBTBase>
 {
-	public CapabilityProviderSerializable(Capability capability, ICapabilityBase instance, EnumFacing facing)
+	public CapabilityProviderSerializable(Capability capability, ICapability instance, EnumFacing facing)
 	{
 		super(capability, instance, facing);
 	}
